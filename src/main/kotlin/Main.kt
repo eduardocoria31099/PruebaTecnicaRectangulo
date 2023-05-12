@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
 private fun welcome() {
     putValues()
     if (ancho == alto) {
-        println("Los valores ingresados forman un cuadrado")
+        println("Los valores ingresados forman un cuadrado :c")
         putValues()
     } else {
         newAncho = ancho?.toInt()
